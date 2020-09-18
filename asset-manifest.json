@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/bugz3jc.github.io/static/css/main.fe253e6c.chunk.css",
+    "main.js": "/bugz3jc.github.io/static/js/main.6dbb9087.chunk.js",
+    "main.js.map": "/bugz3jc.github.io/static/js/main.6dbb9087.chunk.js.map",
+    "runtime-main.js": "/bugz3jc.github.io/static/js/runtime-main.28feb9f9.js",
+    "runtime-main.js.map": "/bugz3jc.github.io/static/js/runtime-main.28feb9f9.js.map",
+    "static/css/2.7cd0a031.chunk.css": "/bugz3jc.github.io/static/css/2.7cd0a031.chunk.css",
+    "static/js/2.9e20fbeb.chunk.js": "/bugz3jc.github.io/static/js/2.9e20fbeb.chunk.js",
+    "static/js/2.9e20fbeb.chunk.js.map": "/bugz3jc.github.io/static/js/2.9e20fbeb.chunk.js.map",
+    "index.html": "/bugz3jc.github.io/index.html",
+    "precache-manifest.f9f0ae432b5bf7f010a520e3501fb5e7.js": "/bugz3jc.github.io/precache-manifest.f9f0ae432b5bf7f010a520e3501fb5e7.js",
+    "service-worker.js": "/bugz3jc.github.io/service-worker.js",
+    "static/css/2.7cd0a031.chunk.css.map": "/bugz3jc.github.io/static/css/2.7cd0a031.chunk.css.map",
+    "static/css/main.fe253e6c.chunk.css.map": "/bugz3jc.github.io/static/css/main.fe253e6c.chunk.css.map",
+    "static/js/2.9e20fbeb.chunk.js.LICENSE.txt": "/bugz3jc.github.io/static/js/2.9e20fbeb.chunk.js.LICENSE.txt",
+    "static/media/avatar.png": "/bugz3jc.github.io/static/media/avatar.d25215ed.png",
+    "static/media/semantic.min.css": "/bugz3jc.github.io/static/media/outline-icons.ef60a4f6.woff",
+    "static/media/coldfusion.bfe28c28.svg": "/bugz3jc.github.io/static/media/coldfusion.bfe28c28.svg",
+    "static/media/johncris_tayco_resume.pdf": "/bugz3jc.github.io/static/media/johncris_tayco_resume.afaedea8.pdf",
+    "static/media/marketdashboard.png": "/bugz3jc.github.io/static/media/marketdashboard.50b1117f.png",
+    "static/media/mysql.b018dd4e.svg": "/bugz3jc.github.io/static/media/mysql.b018dd4e.svg",
+    "static/media/porfolio.png": "/bugz3jc.github.io/static/media/porfolio.653e8db3.png",
+    "static/media/profile.jpg": "/bugz3jc.github.io/static/media/profile.b57e92ea.jpg",
+    "static/media/sql.6c7c3c20.svg": "/bugz3jc.github.io/static/media/sql.6c7c3c20.svg",
+    "static/media/themarket.png": "/bugz3jc.github.io/static/media/themarket.c5d7231a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.28feb9f9.js",
+    "static/css/2.7cd0a031.chunk.css",
+    "static/js/2.9e20fbeb.chunk.js",
+    "static/css/main.fe253e6c.chunk.css",
+    "static/js/main.6dbb9087.chunk.js"
+  ]
+}

@@ -37,7 +37,6 @@
   flex-grow: 1;
   overflow: auto;
   display:flex;
-  align-content: stretch;
 
 }
 .App .branding{
@@ -149,11 +148,12 @@ button.button span{
   padding-top: 3rem;
 }
 .modal span.chip{
+  display: inline-block;
   padding: 4px 8px;
-  margin: 0 2px;
+  margin: 1px 2px;
   background-color: #86B6A4;
   border-radius: 10px;
-  color: #DBDCCC;
+  color: #fff;
 }
 
 .modal .project-description{
@@ -163,4 +163,65 @@ button.button span{
   align-items: stretch;
   flex-grow: 1;
   min-height: 15rem;
+}
+.mobileMenuButton{
+  display: none!important;
+}
+@media only screen and (max-width:767px){
+  .ui.pointing.vertical.side-menu.menu.mobile {
+    position: absolute;
+    top:0;
+    left:-15rem;
+    z-index: 1000;
+    height: 100vh;
+    transition-duration: .3s;
+  }
+  .ui.vertical.pointing.menu .active.item:after{
+    visibility: hidden;
+  }
+  .ui.pointing.vertical.side-menu.menu.mobile.active {
+    
+    top:0;
+    left:0;
+  }
+  .blocker.mobile{
+    display: none;
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 999;
+  }
+  .blocker.mobile.active{
+    display: block;
+  }
+  .ui.segment.contentContainer{
+    margin:0;
+  }
+  .ui.container{
+    width: 100%!important;
+  }
+
+  .mobileMenuButton{
+    display: block!important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: unset!important;
+  }
+
+  .modal .flex-container{
+    flex-flow: column;
+  }
+
+  .modal .project-description{
+    padding-top: 16px;
+    padding-left:0;
+  }
+
+  .ui.button{
+    margin-bottom: 8px;
+  }
 }

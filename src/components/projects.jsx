@@ -10,14 +10,16 @@ import marketimg from './../files/themarket.png';
 import dashboardimg from './../files/marketdashboard.png';
 
 const chipGenerator = (data) =>(
-    <div>
+    <div style={{marginBottom: '8px'}}>
         {data.map( (i,k) => (
             <span className="chip" key={k}>{i}</span>
         ) )}
     </div>
 );
+
+
   
-const Projects = () => {
+const Projects = (props) => {
     const [modalState, setModalState] = useState({
         open: false,
         content: {},
@@ -61,7 +63,7 @@ const Projects = () => {
         <div>
             <Header as='h2'>Projects</Header>
 
-            <Card.Group itemsPerRow={3}>
+            <Card.Group itemsPerRow={props.isMobile ? 1 : 3}>
                 {cardContent.map((i,k)=> (
                     <Card
                         header={i.header}
@@ -80,11 +82,11 @@ const Projects = () => {
         <Modal.Content>
             <div className="flex-container align-stretch">
                 <Image src={content.image} size="medium"/>
-                <div className="project-description">
+            <div className={`project-description ${props.isMobile ? 'mobile' : ''}`}>
                     <p>{content.description}</p>
-                    {content.md}
+                        {content.md}
                     <div className="grow"></div>
-                    <div className="flex-container">
+                    <div className="flex-container ">
                         <div className="grow"></div>
                         
                         <button className="ui button primary">

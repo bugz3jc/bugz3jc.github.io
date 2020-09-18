@@ -1,13 +1,13 @@
 import React from 'react';
 import {
-    Header, Segment, Image, Icon, Button
+    Header, Segment, Button
 } from 'semantic-ui-react';
-import profile from './../files/profile.jpg';
 import {ReactComponent as Cf} from './../files/coldfusion.svg';
 
 import {ReactComponent as My} from './../files/mysql.svg';
 
 import {ReactComponent as Sq} from './../files/sql.svg';
+import resume from './../files/johncris_tayco_resume.pdf';
 const About = () => {
     const iconNames = [
         {name:'html5', title:'HTML 5'},
@@ -35,7 +35,7 @@ const About = () => {
                 <span className="modIcon" key={k} >
                 <i className={`fab fa-${i.name}`}></i>
                     {i.title}
-                </span>
+                </span> 
             ))}
             <span className="modIcon">
                  <Cf className="svg"/>
@@ -52,18 +52,11 @@ const About = () => {
         </div>
         <Header as='h2'>I'd like to hear from you</Header>
         <div className="gutter-bottom">
-            <button className="ui icon button linkedin">
-              <Icon name="linkedin" />
-              LinkedIn
-            </button>
-            <button className="ui icon button teal">
-              <Icon name="github" />
-              GitHub
-            </button>
-            <button className="ui icon button">
-              <Icon name="download" />
-              Resume
-            </button>
+            <Button as='a' href="https://www.linkedin.com/in/john-cris-tayco/" target="_blank" icon="linkedin" color='linkedin' content='LinkedIn'/>
+             
+            <Button as='a' href="https://github.com/bugz3jc" target="_blank" icon="github" color="black" content='Github' />
+              
+            <Button as='a' href={resume} target="_blank" icon='download' content='Resume' />
         </div>
     </div>
     )

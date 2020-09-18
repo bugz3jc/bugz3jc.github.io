@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b83b7ef3667b5131c9f918249132ecb5",
+    "revision": "4837bd7e060d7c84f13a8b53a7935550",
     "url": "/bugz3jc.github.io/index.html"
   },
   {
-    "revision": "81de4cd545013b6fee9b",
+    "revision": "c6480a9dc8896b4a184e",
     "url": "/bugz3jc.github.io/static/css/2.7cd0a031.chunk.css"
   },
   {
-    "revision": "f0818948d25e59059de4",
-    "url": "/bugz3jc.github.io/static/css/main.fe253e6c.chunk.css"
+    "revision": "94223456f8bc4b324e0c",
+    "url": "/bugz3jc.github.io/static/css/main.0db828c6.chunk.css"
   },
   {
-    "revision": "81de4cd545013b6fee9b",
-    "url": "/bugz3jc.github.io/static/js/2.9e20fbeb.chunk.js"
+    "revision": "c6480a9dc8896b4a184e",
+    "url": "/bugz3jc.github.io/static/js/2.e3a17dfa.chunk.js"
   },
   {
     "revision": "5bd09eb7f2cf4d145d532d862be18942",
-    "url": "/bugz3jc.github.io/static/js/2.9e20fbeb.chunk.js.LICENSE.txt"
+    "url": "/bugz3jc.github.io/static/js/2.e3a17dfa.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f0818948d25e59059de4",
-    "url": "/bugz3jc.github.io/static/js/main.6dbb9087.chunk.js"
+    "revision": "94223456f8bc4b324e0c",
+    "url": "/bugz3jc.github.io/static/js/main.01da0f77.chunk.js"
   },
   {
     "revision": "4311835eebc2ba3a2fce",
@@ -114,10 +114,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "653e8db30345b57582fbb7ff2515459e",
     "url": "/bugz3jc.github.io/static/media/porfolio.653e8db3.png"
-  },
-  {
-    "revision": "b57e92ea90186eb854bb72249e023f89",
-    "url": "/bugz3jc.github.io/static/media/profile.b57e92ea.jpg"
   },
   {
     "revision": "6c7c3c20d2c3fbdda2850891963eed72",

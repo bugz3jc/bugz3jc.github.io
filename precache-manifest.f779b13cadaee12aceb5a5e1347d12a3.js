@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4837bd7e060d7c84f13a8b53a7935550",
+    "revision": "f7947b8eaec13d873b5d9cde13ae792c",
     "url": "/bugz3jc.github.io/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bugz3jc.github.io/static/css/2.7cd0a031.chunk.css"
   },
   {
-    "revision": "94223456f8bc4b324e0c",
+    "revision": "ac370f032e7da609ef66",
     "url": "/bugz3jc.github.io/static/css/main.0db828c6.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bugz3jc.github.io/static/js/2.e3a17dfa.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "94223456f8bc4b324e0c",
-    "url": "/bugz3jc.github.io/static/js/main.01da0f77.chunk.js"
+    "revision": "ac370f032e7da609ef66",
+    "url": "/bugz3jc.github.io/static/js/main.0a76ce9f.chunk.js"
   },
   {
     "revision": "4311835eebc2ba3a2fce",
@@ -120,7 +120,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bugz3jc.github.io/static/media/sql.6c7c3c20.svg"
   },
   {
-    "revision": "c5d7231a14306bb18f5bb6a40711790a",
-    "url": "/bugz3jc.github.io/static/media/themarket.c5d7231a.png"
+    "revision": "5c838c5eb75a2aacc2630522fa7526f1",
+    "url": "/bugz3jc.github.io/static/media/themarket.5c838c5e.png"
   }
 ]);

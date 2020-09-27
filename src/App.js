@@ -45,9 +45,9 @@ function App() {
   const size = useWindowSize();
   const isMobile = size.width <= 767;
   const content = {
-    home: <Home isMobile={isMobile}/>,
+    home: <Home isMobile={isMobile} about={() => setActiveItem('about')} projects={() => setActiveItem('projects') }/>,
     about: <About isMobile={isMobile}/>,
-    projects: <Projects isMobile={isMobile}/>
+    projects: <Projects isMobile={isMobile} />
   }
   
   const handleItemClick = (e, { name }) => {

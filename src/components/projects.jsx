@@ -32,26 +32,30 @@ const Projects = (props) => {
             header: 'Portfolio',
             image: portfolioimg,
             description: 'This shows information about my professional career, my projects and other details.',
-            md: chipGenerator(["HTML/CSS", "Reactjs", "Semantic UI"])
+            md: chipGenerator(["HTML/CSS", "Reactjs", "Semantic UI"]),
+            actions: <a href={`https://github.com/bugz3jc/bugz3jc.github.io`} target="_blank" className="ui black button"><Icon name="github" /> Code</a>
         },
         {
             header: 'The Market',
             image: marketimg,
             description: 'An e-commerce platform for small online business. Built with dynamic product listing and filtering.',
-            md: chipGenerator(["HTML/CSS","Reactjs", "Material UI", "RESTful API"])
+            md: chipGenerator(["HTML/CSS","Reactjs", "Material UI", "RESTful API"]),
+            actions: <a href={`https://github.com/bugz3jc/the-market`} target="_blank" className="ui black button"><Icon name="github" /> Code</a>
         },
         {
             header: 'The Market Dashboard',
             image: dashboardimg,
             description: 'The backend Dashboard for The Market. With tools to manage products, customers and orders.',
-            md: chipGenerator(["HTML/CSS","PHP","CodeIgniter","MySQL","Bootstrap 4"])
+            md: chipGenerator(["HTML/CSS","PHP","CodeIgniter","MySQL","Bootstrap 4"]),
+            
                 
         },
         {
-            header: 'The Market API (Coming Soon)',
+            header: 'The Market API',
             image: null,
             description: 'The RESTful API for The Market.',
-            md: chipGenerator(["Python","MySQL"])
+            md: chipGenerator(["Python","MySQL","Flask API"]),
+            actions: <a href={`https://github.com/bugz3jc/market-api`} target="_blank" className="ui black button"><Icon name="github" /> Code & Documentation</a>
                 
         },
         
@@ -89,13 +93,7 @@ const Projects = (props) => {
                     <div className="flex-container ">
                         <div className="grow"></div>
                         
-                        <button className="ui button primary">
-                            <Icon name="external alternate" />
-                            View Site
-                            </button>
-                        <button className="ui button black">
-                            <Icon name="github" />
-                            Code</button>
+                        {content.actions && content.actions}
                     </div>
                     
                 </div>

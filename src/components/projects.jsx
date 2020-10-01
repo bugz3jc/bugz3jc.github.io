@@ -8,6 +8,7 @@ import portfolioimg from './../files/porfolio.png';
 import marketimg from './../files/themarket.png';
 
 import dashboardimg from './../files/marketdashboard.png';
+import apiimg from './../files/api.png';
 
 const chipGenerator = (data) =>(
     <div style={{marginBottom: '8px'}}>
@@ -33,14 +34,20 @@ const Projects = (props) => {
             image: portfolioimg,
             description: 'This shows information about my professional career, my projects and other details.',
             md: chipGenerator(["HTML/CSS", "Reactjs", "Semantic UI"]),
-            actions: <a href={`https://github.com/bugz3jc/bugz3jc.github.io`} target="_blank" className="ui black button"><Icon name="github" /> Code</a>
+            actions: <div>
+                        <a href={`https://github.com/bugz3jc/bugz3jc.github.io`} target="_blank" rel="noopener noreferrer" className="ui black button"><Icon name="github" /> Code</a>
+                    </div>
+                    
         },
         {
             header: 'The Market',
             image: marketimg,
             description: 'An e-commerce platform for small online business. Built with dynamic product listing and filtering.',
             md: chipGenerator(["HTML/CSS","Reactjs", "Material UI", "RESTful API"]),
-            actions: <a href={`https://github.com/bugz3jc/the-market`} target="_blank" className="ui black button"><Icon name="github" /> Code</a>
+            actions: <div>
+                        <a href={`https://github.com/bugz3jc/the-market`} target="_blank" rel="noopener noreferrer" className="ui black button"><Icon name="github" /> Code</a>
+                        <a href={`http://market.johncristayco.me/`} target="_blank" rel="noopener noreferrer" className="ui button"><Icon name="world" /> View Demo</a>
+                    </div>
         },
         {
             header: 'The Market Dashboard',
@@ -52,10 +59,10 @@ const Projects = (props) => {
         },
         {
             header: 'The Market API',
-            image: null,
+            image: apiimg,
             description: 'The RESTful API for The Market.',
             md: chipGenerator(["Python","MySQL","Flask API"]),
-            actions: <a href={`https://github.com/bugz3jc/market-api`} target="_blank" className="ui black button"><Icon name="github" /> Code & Documentation</a>
+            actions: <a href={`https://github.com/bugz3jc/market-api`} target="_blank" rel="noopener noreferrer" className="ui black button"><Icon name="github" /> Code & Documentation</a>
                 
         },
         

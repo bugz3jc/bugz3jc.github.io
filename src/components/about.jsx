@@ -8,14 +8,14 @@ import {ReactComponent as Sq} from './../files/sql.svg';
 import resume from './../files/johncris_tayco_resume.pdf';
 const About = () => {
     const [formData, setFormData] = useState({
-        code:true,
+        code:'test',
         name: '',
         email: '',
         subject: '',
         message: ''
     });
     const [loading, setLoading] = useState(false);
-    const [message, setMessage] = useState([]);
+    const [msg, setMessage] = useState({});
     const iconNames = [
         {name:'html5', title:'HTML 5'},
         {name:'css3-alt', title:'CSS 3'},
@@ -26,25 +26,33 @@ const About = () => {
     ];
 
     const handleSubmit = (event) => {
-        fetch('http://www.johncristayco.me/contact.php', {
-            method: 'POST',
-            body: JSON.stringify(formData),
-            headers: {
-                'Content-Type' : 'application/json; charset=UTF-8'
-            }
-        }).then((response) => {
-            if(response.ok){
-                return response.json();
-            }
-            
-            return Promise.reject(response);
-            
-        }).then((data) => {
-            console.log(data);
+        setLoading(true);
+        const fd = new FormData();
+        for ( var key in formData){
+            fd.append(key, formData[key]);
+        }
+
+        const requestOptions = {
+            method: 'PUT',
+            body: fd,
+        }
+        fetch('http://api.johncristayco.me/contactme', requestOptions)
+        .then((result) => result.json())
+        .then((data) => {
             setLoading(false);
-        }).then((error) => {
-            console.warn(error);
+            setMessage(data);
+            setFormData({
+                code:'test',
+                name: '',
+                email: '',
+                subject: '',
+                message: ''
+            });
+        })
+        .catch((error) => {
             setLoading(false);
+            setMessage({'message':'Apologies, something went wrong. You can check out links below or try again later. error -' + error, 'type':'warning'});
+            
         });
 
         event.preventDefault();
@@ -104,25 +112,25 @@ const About = () => {
         
         <Form style={{maxWidth:450, margin: `0 auto`}} className="gutter-bottom" onSubmit={handleSubmit}>
             {
-                message.length > 0 && <Message {...message[1]}>
+                Object.keys(msg).length !== 0 && <Message warning={msg.type === 'warning'} success={msg.type === 'success'} visible>
                                 <p>
-                                    {message[0]}
+                                    {msg.message}
                                 </p>
                             </Message>
             }
             <Form.Field>
-                <input name="name" placeholder='Name *' required onChange={handleChange}/>
+                <input name="name" placeholder='Name *' required onChange={handleChange} value={formData.name}/>
             </Form.Field>
             <Form.Field>
-                <input name="email" type="email" placeholder='Email *' required onChange={handleChange} />
+                <input name="email" type="email" placeholder='Email *' required onChange={handleChange} value={formData.email} />
             </Form.Field>
             <Form.Field>
-                <input name="subject" type="text" placeholder='Subject *' required onChange={handleChange} />
+                <input name="subject" type="text" placeholder='Subject *' required onChange={handleChange} value={formData.subject} />
             </Form.Field>
             <Form.Field>
-                <textarea name="message" row={3} placeholder="Message *"required onChange={handleChange} ></textarea>
+                <textarea name="message" row={3} placeholder="Message *"required onChange={handleChange} value={formData.message} ></textarea>
             </Form.Field>
-                <Button loading={loading} onClick={() => setLoading(true)} id="submitbtn">Submit</Button>
+                <Button loading={loading} disabled={loading}  id="submitbtn">Submit</Button>
         </Form>
                 
             <div className={`gutter-bottom`} style={{display: 'block', margin: `0 auto`}}>Or you can check out the following:</div>

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d87c9158a8052bb62c1d1d4dd929b79e",
+    "revision": "07d4446ff56c818c39be4f2a6f60ef8f",
     "url": "./index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/css/2.2bf7be7f.chunk.css"
   },
   {
-    "revision": "9472bfb605fe6aae74be",
+    "revision": "4fca8854010446be705e",
     "url": "./static/css/main.a6f928c5.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/2.f4056c3c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9472bfb605fe6aae74be",
-    "url": "./static/js/main.01034ea5.chunk.js"
+    "revision": "4fca8854010446be705e",
+    "url": "./static/js/main.da6997f8.chunk.js"
   },
   {
     "revision": "610a38b7b5a7cb7b2d5e",
@@ -88,8 +88,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/johncris_tayco_resume.7c9db407.pdf"
   },
   {
-    "revision": "50b1117f91e7cd1c62c2ba57b69e3abf",
-    "url": "./static/media/marketdashboard.50b1117f.png"
+    "revision": "c832e390b3095787458d2acceb41c7db",
+    "url": "./static/media/marketdashboard.c832e390.png"
   },
   {
     "revision": "b018dd4ee2594a6b20da9b88e21dd5e5",

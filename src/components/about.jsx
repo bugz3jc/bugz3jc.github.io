@@ -75,8 +75,9 @@ const About = () => {
             
             <Segment basic textAlign="center">
             An experienced Web Developer with a demonstrated history of working in the industry for almost 4 years.
-            Skilled in Cascading Style Sheets (CSS), JavaScript, HTML. Expert in Coldfusion, Php and SQL Server. I have worked with large teams with a systematic development process. Has
-             a strong engineering professional with a Bachelor's degree focused in Information Technology. 
+            Skilled in Cascading Style Sheets (CSS), JavaScript, HTML. Expert in Coldfusion, Php and SQL Server. I have worked with large teams with a systematic development process.
+            My experience in application development taught me that staying curious and connected are the keys to success. I pride myself on the energy and dedication I bring to each
+            project I take on, no matter what the technology or the field.
             </Segment>
 
             <Segment basic textAlign="center">

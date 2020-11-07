@@ -44,6 +44,7 @@ const Projects = (props) => {
             image: marketimg,
             description: 'An e-commerce platform for small online business. Built with dynamic product listing and filtering.',
             md: chipGenerator(["HTML/CSS","Reactjs", "Material UI", "RESTful API"]),
+            limitations: "Current features: browse and search products, add to cart, edit cart, calculate total cost.",
             actions: <div>
                         <a href={`https://github.com/bugz3jc/the-market`} target="_blank" rel="noopener noreferrer" className="ui black button"><Icon name="github" /> Code</a>
                         <a href={`http://market.johncristayco.me/`} target="_blank" rel="noopener noreferrer" className="ui button"><Icon name="world" /> View Demo</a>
@@ -53,14 +54,19 @@ const Projects = (props) => {
             header: 'The Market Dashboard',
             image: dashboardimg,
             description: 'The backend Dashboard for The Market. With tools to manage products, customers and orders.',
+            limitations: "Current features: login with pre-defined user, create, edit, view product (but can't upload image), product list search. basic product statistics in homepage. ",
             md: chipGenerator(["HTML/CSS","PHP","CodeIgniter","MySQL","Bootstrap 4"]),
-            
+            actions: <div>
+                        <a href={`https://github.com/bugz3jc/dashboard`} target="_blank" rel="noopener noreferrer" className="ui black button"><Icon name="github" /> Code</a>
+                        <a href={`http://dashboard.johncristayco.me/`} target="_blank" rel="noopener noreferrer" className="ui button"><Icon name="world" /> View Demo</a>
+                    </div>
                 
         },
         {
             header: 'The Market API',
             image: apiimg,
             description: 'The RESTful API for The Market.',
+            limitations: "Current Features: fetch products and categories with some options.",
             md: chipGenerator(["Python","MySQL","Flask API"]),
             actions: <a href={`https://github.com/bugz3jc/market-api`} target="_blank" rel="noopener noreferrer" className="ui black button"><Icon name="github" /> Code & Documentation</a>
                 
@@ -95,6 +101,7 @@ const Projects = (props) => {
                 <Image src={content.image} size="medium"/>
             <div className={`project-description ${props.isMobile ? 'mobile' : ''}`}>
                     <p>{content.description}</p>
+                    <p>{content.limitations}</p>
                         {content.md}
                     <div className="grow"></div>
                     <div className="flex-container ">

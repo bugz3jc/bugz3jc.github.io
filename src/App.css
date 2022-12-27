@@ -37,6 +37,8 @@
   flex-grow: 1;
   overflow: auto;
   display:flex;
+  padding: 1em 8em;
+
 
 }
 .App .branding{
@@ -99,25 +101,36 @@ button.button span{
 
 .flex-container{
   display: flex;
-  flex-flow: row;
 }
-.flex-container.align-stretch{
-  align-items: stretch;
+.flex-container.align-top{
+  align-items: flex-start;
 }
 .flex-container.flex-wrap{
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.modIcon{
-  margin-right: 16px;
-  margin-bottom: 16px;
-  display: flex;
+.flex-container.column{
   flex-flow: column;
+}
+
+.skillItem{
+  padding: 0 12em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skillItem + .skillItem{
+  margin-top: 1em;
+}
+
+.modIcon{
+  display: flex;
   align-items: center;
 }
 .modIcon i{
   font-size: 3rem;
+  margin-right: 1rem;
 }
 .modIcon:last-of-type{
   margin-right: 0;
@@ -226,4 +239,42 @@ button.button span{
   }
 
   
+  
+}
+/* end media screen */
+
+.ui.modal.full{
+  width: 90vw!important;
+}
+.ui.modal.full>.content{
+  height: 80vh!important;
+}
+.ui.modal.full>.content>.flex-container{
+  height: 100%;
+}
+.ui.modal.full>.content .project-description{
+  height: 100%;
+  overflow-y: auto;
+}
+
+
+.fab.fa-nestjs::before{
+  background-image: url("./files/nestjs.svg");
+}
+.fab.fa-cf::before{
+  background-image: url("./files/coldfusion.svg");
+}
+
+.fab.fa-nestjs::before,
+.fab.fa-cf::before{
+  content:"";
+  width: 42px;
+  height: 42px;
+  display: block;
+  background-size: contain;
+}
+
+
+.text-left{
+  text-align: left;
 }

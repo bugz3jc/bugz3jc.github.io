@@ -7,7 +7,8 @@ import About from './components/about';
 import Projects from './components/projects';
 import Home from './components/home';
 import avatar from './files/avatar.png';
-import resume from './files/johncris_tayco_resume.pdf';
+import { RESUME } from './constants/constants';
+// import resume from './files/johncris_tayco_resume.pdf';
 // Hook
 function useWindowSize() {
   // Initialize state with undefined width/height so server and client renders match
@@ -40,7 +41,7 @@ function useWindowSize() {
   return windowSize;
 }
 function App() {
-  const [activeItem, setActiveItem] = useState('home');
+  const [activeItem, setActiveItem] = useState('about');
   const [isOpen, setOpen] = useState(false);
   const size = useWindowSize();
   const isMobile = size.width <= 767;
@@ -67,7 +68,7 @@ function App() {
               <Image src={avatar} />
               <span className="light">John Cris</span>
               <span className="bold"> Tayco</span>
-              <span className="subtitle">Full Stack Web Developer</span>
+              <span className="subtitle">Web Developer</span>
             </div>
             <Menu.Item
               name='home'
@@ -100,7 +101,7 @@ function App() {
             <Button as='a' href="https://github.com/bugz3jc" target="_blank" className="ui basic large icon button">
               <Icon name="github" />
             </Button>
-            <Button as='a' href={resume} target="_blank" basic>
+            <Button as='a' href={RESUME} target="_blank" basic>
               <Icon name="download" />
               <span> Resume</span>
             </Button>

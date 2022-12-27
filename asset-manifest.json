@@ -1,35 +1,32 @@
 {
   "files": {
-    "main.css": "./static/css/main.a6f928c5.chunk.css",
-    "main.js": "./static/js/main.da6997f8.chunk.js",
-    "main.js.map": "./static/js/main.da6997f8.chunk.js.map",
+    "main.css": "./static/css/main.317db715.chunk.css",
+    "main.js": "./static/js/main.279ae29c.chunk.js",
+    "main.js.map": "./static/js/main.279ae29c.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.916853f0.js",
     "runtime-main.js.map": "./static/js/runtime-main.916853f0.js.map",
     "static/css/2.2bf7be7f.chunk.css": "./static/css/2.2bf7be7f.chunk.css",
-    "static/js/2.f4056c3c.chunk.js": "./static/js/2.f4056c3c.chunk.js",
-    "static/js/2.f4056c3c.chunk.js.map": "./static/js/2.f4056c3c.chunk.js.map",
+    "static/js/2.636a0a28.chunk.js": "./static/js/2.636a0a28.chunk.js",
+    "static/js/2.636a0a28.chunk.js.map": "./static/js/2.636a0a28.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.43240fad0d1b95905ab13c46a3c6452e.js": "./precache-manifest.43240fad0d1b95905ab13c46a3c6452e.js",
+    "precache-manifest.29e9b92c4c04d9d6e81e54313376e4cc.js": "./precache-manifest.29e9b92c4c04d9d6e81e54313376e4cc.js",
     "service-worker.js": "./service-worker.js",
     "static/css/2.2bf7be7f.chunk.css.map": "./static/css/2.2bf7be7f.chunk.css.map",
-    "static/css/main.a6f928c5.chunk.css.map": "./static/css/main.a6f928c5.chunk.css.map",
-    "static/js/2.f4056c3c.chunk.js.LICENSE.txt": "./static/js/2.f4056c3c.chunk.js.LICENSE.txt",
-    "static/media/api.png": "./static/media/api.081e3da8.png",
+    "static/css/main.317db715.chunk.css.map": "./static/css/main.317db715.chunk.css.map",
+    "static/js/2.636a0a28.chunk.js.LICENSE.txt": "./static/js/2.636a0a28.chunk.js.LICENSE.txt",
     "static/media/avatar.png": "./static/media/avatar.d25215ed.png",
     "static/media/semantic.min.css": "./static/media/outline-icons.ef60a4f6.woff",
-    "static/media/coldfusion.bfe28c28.svg": "./static/media/coldfusion.bfe28c28.svg",
-    "static/media/johncris_tayco_resume.pdf": "./static/media/johncris_tayco_resume.7c9db407.pdf",
-    "static/media/marketdashboard.png": "./static/media/marketdashboard.c832e390.png",
-    "static/media/mysql.b018dd4e.svg": "./static/media/mysql.b018dd4e.svg",
-    "static/media/porfolio.png": "./static/media/porfolio.653e8db3.png",
-    "static/media/sql.6c7c3c20.svg": "./static/media/sql.6c7c3c20.svg",
-    "static/media/themarket.png": "./static/media/themarket.5c838c5e.png"
+    "static/media/App.css": "./static/media/nestjs.835b42aa.svg",
+    "static/media/francfranc.png": "./static/media/francfranc.9ac7e0d2.png",
+    "static/media/ippodo.png": "./static/media/ippodo.c63cfc22.png",
+    "static/media/newera.png": "./static/media/newera.669c22fd.png",
+    "static/media/porfolio.png": "./static/media/porfolio.653e8db3.png"
   },
   "entrypoints": [
     "static/js/runtime-main.916853f0.js",
     "static/css/2.2bf7be7f.chunk.css",
-    "static/js/2.f4056c3c.chunk.js",
-    "static/css/main.a6f928c5.chunk.css",
-    "static/js/main.da6997f8.chunk.js"
+    "static/js/2.636a0a28.chunk.js",
+    "static/css/main.317db715.chunk.css",
+    "static/js/main.279ae29c.chunk.js"
   ]
 }

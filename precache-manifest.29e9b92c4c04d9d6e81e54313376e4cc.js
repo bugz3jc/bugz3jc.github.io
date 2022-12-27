@@ -1,35 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "07d4446ff56c818c39be4f2a6f60ef8f",
+    "revision": "13518a88bee5fde0399d268c7f7d5166",
     "url": "./index.html"
   },
   {
-    "revision": "b46d6f66dd9220c0801e",
+    "revision": "6fbf78c6554d15c75c11",
     "url": "./static/css/2.2bf7be7f.chunk.css"
   },
   {
-    "revision": "4fca8854010446be705e",
-    "url": "./static/css/main.a6f928c5.chunk.css"
+    "revision": "710e6f65f7ad957c152f",
+    "url": "./static/css/main.317db715.chunk.css"
   },
   {
-    "revision": "b46d6f66dd9220c0801e",
-    "url": "./static/js/2.f4056c3c.chunk.js"
+    "revision": "6fbf78c6554d15c75c11",
+    "url": "./static/js/2.636a0a28.chunk.js"
   },
   {
     "revision": "5bd09eb7f2cf4d145d532d862be18942",
-    "url": "./static/js/2.f4056c3c.chunk.js.LICENSE.txt"
+    "url": "./static/js/2.636a0a28.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4fca8854010446be705e",
-    "url": "./static/js/main.da6997f8.chunk.js"
+    "revision": "710e6f65f7ad957c152f",
+    "url": "./static/js/main.279ae29c.chunk.js"
   },
   {
     "revision": "610a38b7b5a7cb7b2d5e",
     "url": "./static/js/runtime-main.916853f0.js"
-  },
-  {
-    "revision": "081e3da8ed7354228d9baccac42e05f7",
-    "url": "./static/media/api.081e3da8.png"
   },
   {
     "revision": "d25215ed6dd2ceed617df24504352279",
@@ -64,6 +60,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/flags.9c74e172.png"
   },
   {
+    "revision": "9ac7e0d20e659a3376f642c6d3c694dc",
+    "url": "./static/media/francfranc.9ac7e0d2.png"
+  },
+  {
     "revision": "0ab54153eeeca0ce03978cc463b257f7",
     "url": "./static/media/icons.0ab54153.woff2"
   },
@@ -84,16 +84,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/icons.faff9214.woff"
   },
   {
-    "revision": "7c9db407e1264795841ce4e405347d15",
-    "url": "./static/media/johncris_tayco_resume.7c9db407.pdf"
+    "revision": "c63cfc226ce51a43d8c07fa8c3b2cab3",
+    "url": "./static/media/ippodo.c63cfc22.png"
   },
   {
-    "revision": "c832e390b3095787458d2acceb41c7db",
-    "url": "./static/media/marketdashboard.c832e390.png"
+    "revision": "835b42aafb072fd0c5cdfe8b5371e9fb",
+    "url": "./static/media/nestjs.835b42aa.svg"
   },
   {
-    "revision": "b018dd4ee2594a6b20da9b88e21dd5e5",
-    "url": "./static/media/mysql.b018dd4e.svg"
+    "revision": "669c22fd7eb04c1c2a83dc05c129f9c2",
+    "url": "./static/media/newera.669c22fd.png"
   },
   {
     "revision": "701ae6abd4719e9c2ada3535a497b341",
@@ -118,13 +118,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "653e8db30345b57582fbb7ff2515459e",
     "url": "./static/media/porfolio.653e8db3.png"
-  },
-  {
-    "revision": "6c7c3c20d2c3fbdda2850891963eed72",
-    "url": "./static/media/sql.6c7c3c20.svg"
-  },
-  {
-    "revision": "5c838c5eb75a2aacc2630522fa7526f1",
-    "url": "./static/media/themarket.5c838c5e.png"
   }
 ]);
